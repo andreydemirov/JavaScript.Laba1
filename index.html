@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="wrapper-off"></section>
+
+    <section class="wrapper" id="wrapper">
+        <div id="droplist" class="droplist show">
+            <div class="Headspace">
+                <h1>Подтвердите сообщение</h1>
+
+                <button onclick = 'CloseClick()' class="btn-headspace">x</button>
+            </div>
+            <hr>
+            <div class="text-space">
+                <p>Ахтунг!!! Вы согласны на использование cookies-files на нашем сайте?</p>
+
+            </div>
+            <div class="buttonspace">
+                <button class="green-btn">Согласен</button>
+                <button onclick = 'CloseClick()' class="close-btn">Отмена</button>
+            </div>
+        </div>
+        <section class="center">
+            <div class="dropdown">
+                <button onclick = 'Click()' class="dropbtn">Нажмите</button>
+            </div>
+        </section>
+    </section>
+    <script src="navbar.js"></script>
+</body>
+</html>
